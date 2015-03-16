@@ -19,7 +19,7 @@ class MisraGries(object):
                     if self.a[l] == 0:
                         del self.a[l]
 
-    def estimate(self, q):
+    def estimate(self, q): # an explain of q here
         return self.a[q] if q in self.a else 0
 
 
